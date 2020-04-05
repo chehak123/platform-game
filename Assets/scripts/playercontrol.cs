@@ -98,6 +98,16 @@ public class playercontrol : MonoBehaviour
         return false;
     }
 
+
+    // destroying of coins whenever we reach them
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("coin"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
+
     private void handlelayers()
     {
         if(!checkisgrounded)

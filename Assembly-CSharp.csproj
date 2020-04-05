@@ -53,8 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\playercontrol.cs" />
-     <Compile Include="Assets\scripts\sc.cs" />
+     <Compile Include="Assets\scripts\camerafollow.cs" />
+     <Compile Include="Assets\scripts\coincollection.cs" />
+     <Compile Include="Assets\scripts\playercontrol.cs" />
+     <Compile Include="Assets\scripts\ScoreTextScript.cs" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>E:/game dev/complete platform/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
